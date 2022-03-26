@@ -14,8 +14,8 @@
     "noUnusedParameters": true,
     "outDir": "./lib",
     "strict": true,
-    "target": "es2022",
-    "inlineSourceMap": true,
+    "target": "esnext",
+    "inlineSourceMap": false,
     "types": [
       "node"
     ],

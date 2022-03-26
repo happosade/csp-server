@@ -1,9 +1,9 @@
 import { IncomingMessage, ServerResponse } from "micri";
 
 export default async function wrkHello(_req: IncomingMessage, res: ServerResponse) {
-  res.writeHead(200, {
+  res.writeHead(421, {
     'X-custom': "X-HEADER-D"
   });
-  res.write("Hello! world!!!\n");
+  res.write("This is not the page you're looking for...\n");
   res.end();
 }
