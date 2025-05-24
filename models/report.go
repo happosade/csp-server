@@ -1,9 +1,9 @@
 package models
 
 type Report struct {
-	document_uri       string
-	referrer           string
-	blocked_uri        string
-	violated_directive string
-	original_policy    string
+	Document_uri       string `json:"document-uri"`
+	Referrer           string `json:"referrer"`
+	Blocked_uri        string `json:"blocked-uri"`
+	Violated_directive string `json:"violated-directive"`
+	Original_policy    string `json:"original-policy"`
 }
