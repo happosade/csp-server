@@ -1,0 +1,7 @@
+{
+  "document-uri": "https://example.com/page",
+  "referrer": "https://example.com/",
+  "blocked-uri": "https://attacker.com/malicious.js",
+  "violated-directive": "script-src 'self' https://trusted.cdn.com",
+  "original-policy": "default-src 'self'; script-src 'self' https://trusted.cdn.com; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src * data:; font-src 'self' https://fonts.gstatic.com; frame-ancestors 'self';"
+}
