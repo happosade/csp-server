@@ -21,7 +21,6 @@ var (
 
 func init() {
 	initializers.ConnectES8()
-	initializers.ConnectES7()
 }
 
 func main() {
